@@ -5,8 +5,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>INSIDE APP COMPONENT</h2>
-        <button className="btn btn-info">I am a button</button>
+        <nav></nav>
+        <h1 className="title">HOARDER</h1>
+        <button className="btn btn-info login-btn">Start Hoarding</button>
       </div>
     );
   }
